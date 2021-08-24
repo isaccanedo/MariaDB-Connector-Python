@@ -19,7 +19,7 @@ def print_contacts(cur):
      # Listar contatos
      print("\n".join(contacts))
 
-# Instantiate Connection
+# Instanciar conexão
 try:
      conn = mariadb.connect(
         user="root",
