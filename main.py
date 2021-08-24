@@ -12,7 +12,7 @@ def print_contacts(cur):
      # Recuperar contatos
      cur.execute("SELECT * from usuario")
 
-     # Prepare Contacts
+     # Prepare Contatos
      for (id,nome,telefone) in cur:
         contacts.append(f"{id} {nome} <{telefone}>")
 
