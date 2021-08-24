@@ -1,4 +1,4 @@
-# Module Import
+# Importação de Módulo
 import mariadb
 import sys
 
