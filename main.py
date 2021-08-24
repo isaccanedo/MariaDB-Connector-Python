@@ -28,12 +28,12 @@ try:
         database="agenda",
         port=3306)
 
-     # Instantiate Cursor
+     # Instancie o Cursor
      cur = conn.cursor()
 
      print_contacts(cur)
 
-     # Close Connection
+     # Fechar conexão
      conn.close()
 
 except mariadb.Error as e:
