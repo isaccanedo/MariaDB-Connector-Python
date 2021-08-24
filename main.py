@@ -9,7 +9,7 @@ def print_contacts(cur):
      # Inicializar variáveis
      contacts = []
 
-     # Retrieve Contacts
+     # Recuperar contatos
      cur.execute("SELECT * from usuario")
 
      # Prepare Contacts
