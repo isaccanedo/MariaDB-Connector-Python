@@ -6,7 +6,7 @@ import sys
 def print_contacts(cur):
      """Recupera a lista de contatos do banco de dados e imprime em stdout"""
 
-     # Initialize Variables
+     # Inicializar variáveis
      contacts = []
 
      # Retrieve Contacts
