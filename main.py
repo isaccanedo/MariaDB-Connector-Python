@@ -16,7 +16,7 @@ def print_contacts(cur):
      for (id,nome,telefone) in cur:
         contacts.append(f"{id} {nome} <{telefone}>")
 
-     # List Contacts
+     # Listar contatos
      print("\n".join(contacts))
 
 # Instantiate Connection
