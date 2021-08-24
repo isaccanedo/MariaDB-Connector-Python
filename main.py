@@ -2,7 +2,7 @@
 import mariadb
 import sys
 
-# Print List of Contacts
+# Imprimir lista de contatos
 def print_contacts(cur):
      """Recupera a lista de contatos do banco de dados e imprime em stdout"""
 
