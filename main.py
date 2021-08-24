@@ -37,5 +37,5 @@ try:
      conn.close()
 
 except mariadb.Error as e:
-      print(f"Error connecting to MariaDB Platform: {e}")
+      print(f"Erro ao conectar à plataforma MariaDB: {e}")
       sys.exit(1)
